@@ -1,0 +1,18 @@
+.starredDiv {
+    border: solid 1px black;
+    /* width: 30% */
+}
+
+
+.starredDiv--listItem {
+    list-style: none;
+    /* background-color:red; */
+    display: inline-block;
+    /* text-overflow: ellipsis; */
+    word-wrap: break-word;
+    flex-wrap: nowrap;
+    width: 30% ;
+    padding: 2px;
+    /* align-self: center; */
+    font-size: 14px;
+}

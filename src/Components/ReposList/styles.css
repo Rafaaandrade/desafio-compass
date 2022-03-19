@@ -1,0 +1,21 @@
+.reposDiv {
+  border: solid 1px green;
+
+  /* display: flex;  
+    flex-wrap: nowrap;
+    flex-direction: row;
+  width: inherit; */
+}
+
+.reposDiv--listItem {
+  list-style: none;
+  /* background-color:red; */
+  display: inline-block;
+  /* text-overflow: ellipsis; */
+  word-wrap: break-word;
+  flex-wrap: nowrap;
+  width: 30% ;
+  padding: 2px;
+  align-self: center;
+  font-size: 14px;
+}
