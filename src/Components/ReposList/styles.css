@@ -7,6 +7,11 @@
   width: inherit; */
 }
 
+.reposDiv h3 {
+  display: flex;
+  justify-content:center;
+}
+
 .reposDiv--listItem {
   list-style: none;
   /* background-color:red; */

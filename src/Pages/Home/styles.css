@@ -1,6 +1,15 @@
 .homeContainer {
-    width: 100%;
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
     margin-top: 25px;
+}
+
+.homeContainer--divLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-items: center;
 }

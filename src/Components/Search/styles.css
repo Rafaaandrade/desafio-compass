@@ -1,8 +1,9 @@
 .searchDiv {
     display: flex;
     flex-direction: column;
-    width: 30%
+
+    align-items: center;
 }
-/* .searchDiv button {
-   
-} */
+.searchDiv label {
+    align-items: center;
+}

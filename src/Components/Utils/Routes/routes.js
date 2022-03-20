@@ -11,7 +11,13 @@ const routes = [
         path: '/user',
         exact: true,
         component: User
+    },
+    {
+        path: '/user/signin/callback',
+        exact: true,
+        component: Home
     }
+
 
 ];
 

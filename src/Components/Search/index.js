@@ -1,20 +1,24 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { useMyContext } from '../../Context';
 import './styles.css';
 
 const Search = () => {
     const [data, setData] = useState("");
-    const {Authorize, getUser} = useMyContext();
+    const {Authorize, getUser, apiData} = useMyContext();
+    const {user} = apiData;
+    const [state,setState] = useState();
     const navigate = useNavigate();
     const handlePesquisa = () => {
         if(data){
             getUser(data);
             navigate("/user");
+            setState("code")
         }
+
     }
 
-    // console.log('data', data)
+
     return (
         <div className="searchDiv">
             <label>Digite um nome de usuário</label>

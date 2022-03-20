@@ -4,7 +4,7 @@ import './styles.css';
 const StarredList = ({ starred, index }) => {
     return (
         <div className="starredDiv">
-            <label>Starred</label>
+            <h3>Starred</h3>
             {starred && index === 2 && (
                 <div>
                     {starred.map((s) => (
