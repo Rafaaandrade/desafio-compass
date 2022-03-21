@@ -10,7 +10,6 @@ const StarredList = ({ starred, index }) => {
                     {starred.map((s) => (
                         <li className="starredDiv--listItem" key={s.id}>{s.name}</li>
                     ))}
-
                 </div>
             )}
         </div>

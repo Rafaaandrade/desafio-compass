@@ -16,7 +16,7 @@ const User = () => {
     }
   }, [user]);
 
-  console.log("info usuario", user);
+
   return (
     <div className="userContainer">
       {user ? (
@@ -48,7 +48,7 @@ const User = () => {
           {index === 2 && <StarredList index={index} starred={starred} />}
         </div>
       )}
-     
+
     </div>
   );
 };
